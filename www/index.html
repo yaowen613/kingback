@@ -26,8 +26,6 @@
         <ion-content>
           <ul class="list">
             <a href="http://index.html" class="item" menu-toggle="left">问答服务</a>
-            <!--<a href="http://www.webdoes.com/archives/609.html#/menu/keyboard" class="item" menu-toggle="left">Keyboard Input Types</a>-->
-            <!--<a href="http://www.webdoes.com/archives/609.html#/menu/slidebox" class="item" menu-toggle="left">Slide Box</a>-->
             <a href="about.html" class="item" menu-toggle="left">About</a>
           </ul>
         </ion-content>
@@ -56,15 +54,15 @@
         
     <ion-tabs class="tabs-icon-top tabs-positive">
 
-      <ion-tab title="问答" icon="ion-pricetag" href="http://www.webdoes.com/archives/609.html#/menu/tab/buttons">
+      <ion-tab title="问答" icon="ion-pricetag" href="#">
         <ion-nav-view name="buttons-tab"></ion-nav-view>
       </ion-tab>
 
-      <ion-tab title="日记" icon="ion-clipboard" href="http://www.webdoes.com/archives/609.html#/menu/tab/list">
+      <ion-tab title="日记" icon="ion-clipboard" href="#">
         <ion-nav-view name="list-tab"></ion-nav-view>
       </ion-tab>
 
-      <ion-tab title="健康汇" icon="ion-settings" href="http://www.webdoes.com/archives/609.html#/menu/tab/form">
+      <ion-tab title="健康汇" icon="ion-settings" href="#">
         <ion-nav-view name="form-tab"></ion-nav-view>
       </ion-tab>
 
@@ -81,7 +79,7 @@
         </div>
 
         <ion-list>
-          <ion-item ng-repeat="testItem in testItems" item="testItem" href="http://www.webdoes.com/archives/609.html#/menu/tab/testItem" data-id="{{testItem.id}}">
+          <ion-item ng-repeat="testItem in testItems" item="testItem" href="#" data-id="{{testItem.id}}">
             问题: {{ testItem.title }}
           </ion-item>
           </ion-list>
@@ -112,7 +110,7 @@
 
           <div class="list">
             <!--<div class="item item-divider">-->
-            <ion-item ng-repeat="item in items" item="item" href="http://www.webdoes.com/archives/609.html#/menu/tab/item">
+            <ion-item ng-repeat="item in items" item="item" href="#">
               Item {{ item.id }}
             </ion-item>
           </div>
@@ -220,7 +218,7 @@
         <div class="card">
           <div class="item">
             <h3>本软件由墨语制作，仅供参考</h3>
-            <p><a href="http://www.webdoes.com" target="_blank">联系他</a></p>
+            <p><a href="#" target="_blank">联系他</a></p>
           </div>
         </div>
       </ion-content>
